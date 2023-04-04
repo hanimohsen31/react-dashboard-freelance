@@ -45,10 +45,10 @@ $MainColor: #697a8d;
     padding: 0;
     box-sizing: border-box;
     color: $MainColor;
+    transition: all .2s;
 }
 body {
     background-color: #f5f5f9;
-    // min-height: 100vh;
 }
 .App {
     .side {
@@ -60,21 +60,12 @@ $SectionWidthLarge: 260px;
 $SectionWidthMidume: 50px;
 
 .MainSection {
-    // flex:6;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: calc(100vw - 260px);
     overflow-x: auto;
-
-    // background-clip: padding-box;
-    // box-shadow: 0 2px 6px 0 rgb(67 89 113 / 12%);
-    // background-color: #fff;
-    // background-clip: border-box;
-    // border: 0 solid #d9dee3;
-    // border-radius: 0.5rem;
-
     @media (max-width: $large) {
         width: calc(100vw - $SectionWidthMidume);
     }
@@ -98,7 +89,6 @@ thead {
             color: black !important;
         }
     }
-    // height: 55px;
 }
 
 nav {
@@ -108,10 +98,6 @@ nav {
         text-decoration: none;
     }
 }
-
-// .spanIjnected{
-//     // color: #71dd37;
-// }
 
 .textStartImp{
     text-align: start !important;
