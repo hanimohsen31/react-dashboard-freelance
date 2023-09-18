@@ -21,9 +21,10 @@ export const Login = () => {
   }
 
   return (
-    <div className="Login cardStyle container w-75 my-5">
-      <h4 className="mb-2">Welcome to El-Hyber! 👋</h4>
-      <p className="mb-4">Please sign-in to your account to start</p>
+    <div className="Login cardStyle container my-5 loginCardStyle p-3">
+      <h4 className="mb-2 text-center">Welcome to Our DashBoard! 👋</h4>
+      <p className="mb-0 text-center">Please use "Admin" and "123698745" for username and password</p>
+      <p className="mb-4 text-center">Or sign-in to your account to start</p>
       <form onSubmit={handleSubmit}>
         <Input
           label="Username"

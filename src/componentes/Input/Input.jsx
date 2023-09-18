@@ -14,7 +14,7 @@ export const Input = (props) => {
         onChange={handleChange}
         value={props.value}
         type={props.type}
-        placeholder={props.label}
+        // placeholder={props.label}
         name={props.name}
         className={`form-control text-end ${props.inputClass}`}
         required
