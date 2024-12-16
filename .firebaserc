@@ -1,5 +1,16 @@
 {
   "projects": {
-    "default": "react-dashboard-300"
-  }
+    "default": "collection-5000"
+  },
+  "targets": {
+    "collection-5000": {
+      "hosting": {
+        "react-arabic-dashbored": [
+          "react-arabic-dashbored"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
