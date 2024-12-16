@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "react-arabic-dashbored",
     "public": "build",
     "ignore": [
       "firebase.json",
